@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Toolkit (Flask + React)
 
-A full-stack cybersecurity toolkit built with **Flask** (backend) and **React** (frontend). This toolkit includes multiple security tools like a firewall tester, port scanner, malware scanner, password strength checker, software inventory checker, and IP geolocation/reputation checker — all wrapped in a sleek modern dashboard UI.
+A full-stack cybersecurity toolkit built with **Flask** (backend) and **React** (frontend). This toolkit includes multiple security tools like a firewall, port scanner, malware scanner, password strength checker, software inventory checker, and IP geolocation/reputation checker — all wrapped in a sleek modern dashboard UI.
 
 ---
 
