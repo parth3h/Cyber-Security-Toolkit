@@ -1,0 +1,96 @@
+/* Light mode styles (default) */
+.port-scanner-container {
+    padding: 20px;
+    color: #000;
+    background-color: #f4f4f4;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #39ff14;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #32e012;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .loading-text {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #39ff14;
+    color: #000;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  /* 🔥 Dark mode */
+  body.dark-mode .port-scanner-container {
+    background-color: #121212;
+    color: #f4f4f4;
+  }
+  
+  body.dark-mode input {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    border: 1px solid #555;
+  }
+  
+  body.dark-mode button {
+    background-color: #ffef14;
+    color: #000;
+  }
+  
+  body.dark-mode table {
+    border-color: #555;
+  }
+  
+  body.dark-mode tr:nth-child(even) {
+    background-color: #1e1e1e;
+  }
+  

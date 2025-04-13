@@ -1,0 +1,55 @@
+.sidebar {
+  background-color: #f00800;
+  color: rgb(6, 0, 0);
+  width: 250px;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  width: 210px;
+  margin-bottom: 30px;
+  z-index: 2;
+}
+
+.nav-links {
+  z-index: 2;
+}
+
+.nav-links p {
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  font-family: Arial, sans-serif;
+}
+
+.nav-links p:hover {
+  transform: translateX(5px);
+  text-decoration: underline;
+}
+
+/* Dashboard style (cleaned up, no green glow) */
+.nav-links p.dashboard {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 15px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  box-shadow: 0 0 8px #000; /* Only subtle black shadow */
+  transition: all 0.3s ease;
+}
+
+.nav-links p.dashboard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #000; /* Slightly stronger black shadow on hover */
+}
