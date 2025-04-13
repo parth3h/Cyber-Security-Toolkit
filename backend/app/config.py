@@ -1,2 +1,2 @@
-ABUSEIPDB_API_KEY = "30cb42af4cb85329dd320e2e044119f77fcd65068ad9a2531a16ec6c2f6031cb6c24abe808cc4fb7"  # Replace with your actual API key
-VIRUSTOTAL_API_KEY = "f849cf4bc52f09eb7e77c4a97d922338297366aca6a8202b882274cb590a26de"
+ABUSEIPDB_API_KEY = "YOUR_API_KEY_HERE"  # Replace with your actual API key
+VIRUSTOTAL_API_KEY = "YOUR_API_KEY_HERE" # Replace with your actual API key
