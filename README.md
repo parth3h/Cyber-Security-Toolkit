@@ -95,6 +95,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 📷 Screenshots (Optional)
 
-_Add some UI screenshots or GIFs to show your toolkit in action._
